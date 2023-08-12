@@ -1,0 +1,239 @@
+$textcolor: #f6f6f6;
+$textvalyuta: #2959CE;
+$btnvalyuta: #DCE6FF;
+$kichikbtn: #7296EC;
+$borderrang: #D1D1D1;
+$rang: #7F7F7F;
+
+*{
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+html{
+    height: 100%;
+    scroll-behavior: smooth;
+    body{
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        font-size: 16px;
+        font-family: "Rubik", "Arial", sans-serif;
+        line-height: 1.2;
+        color: #222;
+    }
+}
+.container{
+    width: 100%;
+    max-width: 1240px;
+    padding: 20px 0;
+    margin: auto;
+}
+.navbar{
+    background-color: $textcolor;
+    .navbar-container{
+        align-items: center;
+        display: flex;
+        .navbar-a{
+            display: flex;
+            background-color: #ffff;
+            padding: 6px 8px;
+            border-radius: 8px;
+            line-height: normal;
+            &:hover{
+                opacity: 0.8;
+            }
+            &:active{
+                opacity: 0.6;
+            }
+        }
+        .valyuta-navbar{
+            display: flex;
+            margin-right: auto;
+            padding-left: 20px;
+            .valyuta-btn{
+                span{
+                    color: $textvalyuta;
+                    font-weight: 700;
+                }
+                a{
+                    font-size: 14px;
+                    color: #444;
+                }
+            }
+            .valyuta-btn:not(:last-child){
+                margin-right: 16px;
+            }
+        }
+        .navbar-cripta{
+            margin-right: 16px;
+            background-color: $btnvalyuta;
+            padding: 3px;
+            border-radius:39px;
+            color: #a6a6a6;  
+            line-height: 30px;
+            text-align: center;
+            .cripta-bitcoin{
+                background-color: white;
+                border-radius: 50%;
+                padding: 3px;
+                color: #222;
+            } 
+        }
+        .btn-navbar{
+            padding: 13px 20px;
+            background-color: $kichikbtn;
+            border-radius: 10px;
+        }
+    }
+}
+
+.navbar-son ul{
+    display: flex;
+    margin-left: -40px;
+}
+.navbar-son li:not(:last-child){
+    margin-right: 50px;
+}
+.navbar-son{
+    width: 1200px;
+    height: 30px;
+    border-bottom: 1px solid $borderrang;
+    margin-left: 340px;
+}
+
+.rasm{
+    width: 1200px;
+    justify-content: center;
+    height: 128px;
+    align-items:center;
+    margin-top: 30px;
+    margin-left: 340px;
+}
+.item-grids{
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+    .item1{
+        width: 393px;
+        height: 382px;
+        padding: 20px 17px 15px 17px;
+        border-radius: 10px;
+        background-color: #F6F6F6;
+        .son2{
+            color: #4A4B4C;
+            font-size: 16px;
+        }
+        .son1{
+            font-size: 20px;
+            margin-top: -1px;
+        }
+        .rasm1{
+            width: 359px;
+            height: 165px;
+            border-radius: 10px;
+        }
+        .box{
+            display: flex;
+            .rasm2{
+                width: 20px;
+                height: 20px;
+                margin-top: 12px;
+            }
+            .son3{
+                color: #5E5F61;
+                font-size: 12px;
+                margin-top: 16px;
+                margin-left: 10px;
+            }
+        }  
+    }
+
+    .item2{
+        width: 393px;
+        height: 382px;
+        padding: 20px 17px 15px 17px;
+        border-radius: 10px;
+        background-color: #F6F6F6;
+        margin-left: 20px;
+        .son2{
+            color: #4A4B4C;
+            font-size: 16px;
+        }
+        .son1{
+            font-size: 20px;
+            margin-top: -1px;
+        }
+        .rasm1{
+            width: 359px;
+            height: 165px;
+            border-radius: 10px;
+        }
+        .box{
+            display: flex;
+            .rasm2{
+                width: 20px;
+                height: 20px;
+                margin-top: 12px;
+            }
+            .son3{
+                color: #5E5F61;
+                font-size: 12px;
+                margin-top: 16px;
+                margin-left: 10px;
+            }
+        } 
+    }
+
+    .item3{
+        width: 393px;
+        height: 382px;
+        padding: 20px 17px 15px 17px;
+        border-radius: 10px;
+        background-color: #F6F6F6;
+        margin-left: 20px;
+        .son2{
+            color: #4A4B4C;
+            font-size: 16px;
+        }
+        .son1{
+            font-size: 20px;
+            margin-top: -1px;
+        }
+        .rasm1{
+            width: 359px;
+            height: 165px;
+            border-radius: 10px;
+        }
+        .box{
+            display: flex;
+            .rasm2{
+                width: 20px;
+                height: 20px;
+                margin-top: 12px;
+            }
+            .son3{
+                color: #5E5F61;
+                font-size: 12px;
+                margin-top: 16px;
+                margin-left: 10px;
+            }
+        } 
+    }
+    .item1:hover{
+        transition: all .5s ease;
+        box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+        cursor: pointer;
+    }
+    .item2:hover{
+        transition: all .5s ease;
+        box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+        cursor: pointer;
+    }
+    .item3:hover{
+        transition: all .5s ease;
+        box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+        cursor: pointer;
+    }
+    
+}
