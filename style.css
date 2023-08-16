@@ -105,7 +105,7 @@ html body {
 .item-grids {
   display: flex;
   justify-content: center;
-  margin: 30px;
+  margin: 10px;
 }
 .item-grids .item1 {
   width: 393px;
@@ -267,13 +267,16 @@ html body {
   margin-top: 30px;
 }
 
+.buildings {
+  margin-top: -50px;
+}
 .buildings .build1 {
-  width: 797px;
+  width: 810px;
   height: 205px;
   border-radius: 15px;
   background: #f6f6f6;
   position: relative;
-  margin-top: 30px;
+  margin-top: 10px;
 }
 .buildings .build1 .build1-img {
   width: 210px;
@@ -304,10 +307,10 @@ html body {
   left: 280px;
 }
 .buildings .build2 {
-  width: 797px;
+  width: 810px;
   height: 205px;
   background: #f6f6f6;
-  margin-top: 20px;
+  margin-top: 10px;
   border-radius: 15px;
   position: relative;
 }
@@ -320,7 +323,7 @@ html body {
 .buildings .build2 .feruz1 {
   position: absolute;
   top: 0;
-  width: 560px;
+  width: 550px;
   left: 250px;
 }
 .buildings .build2 .feruz1 .best {
@@ -340,10 +343,10 @@ html body {
   left: 280px;
 }
 .buildings .build3 {
-  width: 797px;
+  width: 810px;
   height: 205px;
   background: #f6f6f6;
-  margin-top: 20px;
+  margin-top: 10px;
   border-radius: 15px;
   position: relative;
 }
@@ -376,10 +379,10 @@ html body {
   left: 280px;
 }
 .buildings .build4 {
-  width: 797px;
+  width: 810px;
   height: 205px;
   background: #f6f6f6;
-  margin-top: 20px;
+  margin-top: 10px;
   border-radius: 15px;
   position: relative;
 }
@@ -392,7 +395,7 @@ html body {
 .buildings .build4 .feruz1 {
   position: absolute;
   top: 0;
-  width: 600px;
+  width: 678px;
   left: 250px;
 }
 .buildings .build4 .feruz1 .dom {
@@ -404,7 +407,7 @@ html body {
   top: 95px;
 }
 .buildings .build4 .build1-img2 {
-  margin-left: 20px;
+  margin-left: 10px;
   margin-top: 175px;
 }
 .buildings .build4 .build1-p2 {
@@ -413,7 +416,7 @@ html body {
   color: #5e5f61;
   position: absolute;
   top: 167px;
-  left: 280px;
+  left: 270px;
 }
 
 .ong-list {
@@ -421,7 +424,7 @@ html body {
   width: 393px;
   height: 502px;
   background-color: #f6f6f6;
-  top: 1530px;
+  top: 1460px;
   border-radius: 15px;
 }
 
@@ -430,7 +433,7 @@ html body {
 }
 
 .oxirg-ram {
-  margin-top: 590px;
+  margin-top: 490px;
   width: 393px;
   height: 338px;
 }
@@ -541,4 +544,18 @@ hr {
   margin-left: 10px;
   width: 359px;
   margin-top: 20px;
+}
+
+.foot-btn {
+  padding: 17px 353px;
+  background: #EAEAEA;
+  border: none;
+  color: #000;
+  font-size: 16px;
+  font-weight: 700;
+  border-radius: 10px;
+}
+
+.footer-btn {
+  margin-top: -40px;
 }/*# sourceMappingURL=style.css.map */

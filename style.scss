@@ -111,7 +111,7 @@ html{
 .item-grids{
     display: flex;
     justify-content: center;
-    margin: 30px;
+    margin: 10px;
     .item1{
         width: 393px;
         height: 382px;
@@ -274,13 +274,14 @@ html{
     margin-top: 30px;
 }
 .buildings{
+    margin-top: -50px;
     .build1{
-        width: 797px;
+        width: 810px;
         height: 205px;
         border-radius:15px;
         background: #f6f6f6;
         position: relative;
-        margin-top: 30px;
+        margin-top: 10px;
         .build1-img{
             width: 210px;
             height: 165px;
@@ -311,10 +312,10 @@ html{
         }
     }
     .build2{
-        width: 797px;
+        width: 810px;
         height: 205px;
         background: #f6f6f6;
-        margin-top: 20px;
+        margin-top: 10px;
         border-radius:15px;
         position: relative;
         .build2-img{
@@ -326,7 +327,7 @@ html{
         .feruz1{
             position: absolute;
             top: 0;
-            width: 560px;
+            width: 550px;
             left: 250px;
             .best{
                 width: 520px;
@@ -347,10 +348,10 @@ html{
         }
     }
     .build3{
-        width: 797px;
+        width: 810px;
         height: 205px;
         background: #f6f6f6;
-        margin-top: 20px;
+        margin-top: 10px;
         border-radius:15px;
         position: relative;
         .build3-img{
@@ -383,10 +384,10 @@ html{
         }
     }
     .build4{
-        width: 797px;
+        width: 810px;
         height: 205px;
         background: #f6f6f6;
-        margin-top: 20px;
+        margin-top: 10px;
         border-radius:15px;
         position: relative;
         .build4-img{
@@ -398,7 +399,7 @@ html{
         .feruz1{
             position: absolute;
             top: 0;
-            width: 600px;
+            width: 678px;
             left: 250px;
             .dom{
                 width: 600px;
@@ -410,7 +411,7 @@ html{
             }
         }
         .build1-img2{
-            margin-left: 20px;
+            margin-left: 10px;
             margin-top: 175px;
         }
         .build1-p2{
@@ -419,7 +420,7 @@ html{
             color: #5e5f61;
             position: absolute;
             top: 167px;
-            left: 280px;
+            left: 270px;
         }
     }
 }
@@ -428,16 +429,14 @@ html{
     width: 393px;
     height: 502px;
     background-color: #f6f6f6;
-    top: 1530px;
+    top: 1460px;
     border-radius: 15px;
-
-
 }
 .oyoq{
     display: flex;
 }
 .oxirg-ram{
-    margin-top: 590px;
+    margin-top: 490px;
     width: 393px;
     height: 338px;
 }
@@ -551,4 +550,17 @@ hr{
     margin-left: 10px;
     width: 359px;
     margin-top: 20px;
+}
+
+.foot-btn{
+    padding: 17px 353px;
+    background: #EAEAEA;
+    border: none;
+    color: #000;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 10px;
+}
+.footer-btn{
+    margin-top: -40px;
 }
